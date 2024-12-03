@@ -71,3 +71,17 @@ Continuously monitor cloud service performance and optimize resource allocation 
 Conclusion 
 
 Migrating to a cloud-based infrastructure will enhance Omnifood's operational efficiency, improve customer service, and support growth ambitions. This strategic approach will leverage the benefits of scalability, reliability, and security, positioning Omnifood for future success in the competitive food delivery market 
+
+step 1: To clone this repository:
+git clone <repository-url>
+step 2: set up aws account
+step 3:aws configure
+ddeploy application on aws
+cd <repository-directory>
+sInitialize Elastic Beanstalk:
+eb init -p python-3.8 <your-app-name>
+Create an environment and deploy:
+eb create <environment-name>
+eb deploy
+Open the application:
+eb open
